@@ -1,0 +1,9 @@
+<svg id="Chapters" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <path id="Path_14950" data-name="Path 14950" d="M0,0H45V45H0Z" fill="none"/>
+  <path id="Path_14951" data-name="Path 14951" d="M12.6,5H8.8A3.742,3.742,0,0,0,5,8.682V30.774a3.742,3.742,0,0,0,3.8,3.682H27.792a3.742,3.742,0,0,0,3.8-3.682V8.682A3.742,3.742,0,0,0,27.792,5h-3.8" transform="translate(4.205 5.021)" fill="none" stroke="#56c6be" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect id="Rectangle_2465" data-name="Rectangle 2465" width="11" height="7" rx="2" transform="translate(17.418 6)" fill="none" stroke="#56c6be" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="Line_296" data-name="Line 296" x2="0.018" transform="translate(16.875 22.5)" fill="none" stroke="#56c6be" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="Line_297" data-name="Line 297" x2="4" transform="translate(24.488 22.406)" fill="none" stroke="#56c6be" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="Line_298" data-name="Line 298" x2="0.018" transform="translate(16.875 30)" fill="none" stroke="#56c6be" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <line id="Line_299" data-name="Line 299" x2="4" transform="translate(24.488 29.536)" fill="none" stroke="#56c6be" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

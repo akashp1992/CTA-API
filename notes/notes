@@ -1,0 +1,71 @@
+Rides
+
+booking_data
+bill_number
+date
+customer_phone_number
+customer_id
+services_booking_date
+item_name
+
+
+- pos
+    - primary_key
+    - slug
+    - invoice_number
+    - organization_id
+    - branch_id
+    - customer_id
+    - status ( pending, completed, canceled )
+    - scheduled_at
+    - discount_type ( absolute, percentage )
+    - discount_value
+    - discount_amount
+    - invoice_amount
+    - advance_amount
+    - final_amount
+    - remaining_amount
+    - charge_id
+    - charge_url
+    - payment_id
+    - payment_captured_at
+    - payment_response
+    - created_by
+    - created_at
+    - updated_at
+
+- pos_transactions
+    - primary_key
+    - pos_id
+    - action ( booking, advance, refund, partial )
+    - type ( credit / debit )
+    - payment_type ( cash, k-net, other )
+    - amount
+    - notes
+    - created_by
+    - created_at
+    - updated_at
+
+- pos_items
+    - primary_key
+    - pos_id
+    - type ( product, service )
+    - item_id ( ref: product_id, service_id )
+    - quantity
+    - per_item_cost
+    - final_cost
+    - trampoline_time
+    - playground_time
+    - created_at
+    - updated_at
+
+
+bookings
+booking_has_multiple_products
+booking_has_multiple_services
+booking_has_multiple_payments
+booking_has_pending_payments
+
+pos
+pos_has_items
+pos_has_transactions
